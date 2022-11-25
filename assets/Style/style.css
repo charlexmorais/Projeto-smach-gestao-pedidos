@@ -1,0 +1,256 @@
+
+html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    margin: 0;
+}
+
+h2{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 0;
+    color: #4D4D4D;
+}
+
+legend{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666;
+}
+
+main{
+    min-height: 100%;
+    
+    position: relative;
+}
+
+
+:root{
+    --btn-blueviolet:#4A08FF;
+    --btn-blueviolet-hover:#210981;
+    --background-grey:#F3F3F3;
+    --btn-color-orange:#FF8B20;
+    --grey-table:#ECECEC;
+    --label-grey:#666666;
+    font-size: 80%;
+}
+
+/* ---------LATERAL-----------*/
+.content{
+    max-width: 335px;
+    height: 585px;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+    background-color: #FFFFFF;
+    
+}
+
+
+#principal{
+    margin: 0 !important;
+}
+
+
+#menu_lateral{
+
+    display: flex;
+    justify-content: center;
+    box-shadow: 47px 0px 28px rgba(0, 0, 0, 0.01), 21px 0px 21px rgba(0, 0, 0, 0.02), 5px 0px 11px rgba(0, 0, 0, 0.02), 0px 0px 0px rgba(0, 0, 0, 0.02);
+}
+
+#menu_lateral img{
+    margin-top: 4rem;
+   
+}
+
+#box_img{
+    height: max-content;
+    overflow: hidden;
+}
+
+.version-app{
+    height: max-content;
+    position: absolute;
+    bottom: 0;
+    left: 0;   
+    margin: 0 0 2rem 2rem;
+
+    font-family: 'Barlow',sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+
+/* ---------FIM LATERAL-----------*/
+
+
+/*---------PRINCIPAL------------*/
+
+
+.btn-one{
+    background-color: #4A08FF;
+}
+.btn-config{
+    color: white;
+
+    width: max-content;
+    height: 2.2rem;
+    border-radius: 8px;
+    padding: 0 15px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 600
+}
+
+.btn-one:hover{
+    background-color:var(--btn-blueviolet-hover);
+    color: white;
+}
+
+.btn-one:active{
+   background-color: var(--btn-blueviolet) !important;
+   color: white !important;
+   border: none !important;
+}
+
+
+.btn-title img{
+    margin: 0 10px 3px 0;
+}
+
+#btn-delete{
+    width: max-content;
+    padding-top: 2px;
+}
+
+#btn-delete img{
+    width: 15px;
+    margin:0 5px 2px 0;
+}
+
+
+/*----FILTROS------*/
+
+.filter_status,
+.filter_types{
+    color: #B3B3B3;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    
+    width: 7rem;
+    height: 2rem;
+}
+
+.btn-orange{
+    color: var(--btn-color-orange);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    
+    border: 1px solid var(--btn-color-orange);
+    border-radius:6px ;
+    width: 6.2rem;
+    height: 2rem;
+}
+
+.filters{
+    position: relative;
+}
+
+.btn-print{
+    display: inline;
+    position: absolute;
+    right: 0;
+}
+
+
+#print {
+    padding: 0;
+}
+
+#print img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 5px;
+}
+
+
+/*----FIM FILTROS------*/
+
+/*------Table---------*/
+thead{
+    background-color:  var(--grey-table);
+    border-top:1px solid #B3B3B3 ;
+    border-bottom:1px solid #B3B3B3;
+    height: 2rem;
+}
+
+table{
+    font-size: 1rem;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;   
+}
+tbody{
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    color: #999999;
+    font-size: 1.1rem;
+}
+
+
+.table-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.table-box .img-notFound{
+    align-self: center;
+}
+
+
+.img-notFound h4{
+    font-size: 1.4rem;
+    font-family: 'Barlow',sans-serif;
+    font-weight: 500;
+    color: #B3B3B3;
+    margin: .4rem 0 0 .8rem;
+    width: max-content;
+}
+
+
+/*------ fim Table---------*/
+
+/*---------FIM PRINCIPAL------------*/
+
+
+/*---------FOOTER--------*/
+
+
+footer{
+    height: 3rem;
+    font-size: 14px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    border-top: 1px solid #F3F3F3;
+    color: #B3B3B3;
+}
+
+footer p{
+    margin: 0 !important;
+}

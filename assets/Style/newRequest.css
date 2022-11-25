@@ -1,0 +1,208 @@
+@import url('style.css');
+
+.consumption{
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.consumption .input-one{
+    margin-left: 1.8rem;
+}
+
+/* .control input[type="radio"]{
+    appearance: none;
+    color: currentColor;
+    border: 0.15em solid currentColor;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50%;
+} */
+
+input[name="code-product"]{
+    width: 17rem;
+    height: 2rem;
+    padding: 0 12px 0 12px;
+    border: 1px solid var(--label-grey);
+    border-radius: 8px;
+}
+
+
+
+.input-label{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    color:var(--label-grey) ;
+}
+
+.box-search-product .input-label{
+    margin-right:1rem ;
+}
+
+.box-search-product button img{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+ #amount-product,
+.inputs-box .label-amout{
+    width: 100px;
+    margin-right: 7px;
+}
+
+#name-product,
+.inputs-box .label-product{
+    width: 100%;
+    cursor: not-allowed;
+    margin-right: 7px;
+}
+
+#name-product{
+    background-color: var(--grey-table);
+    opacity: 0.5;
+}
+
+#price-product,
+.inputs-box .label-price{
+    width: 140px;
+    cursor: not-allowed;
+}
+
+#price-product{
+    background-color: var(--grey-table);
+    opacity: 0.5;
+    
+} 
+
+.btn-save-product img{
+    margin: 0 .5rem 0.1rem 0;
+}
+
+.img-notFound{
+    position: relative;
+}
+
+.btn-inactive{
+    background-color: #B3B3B3;
+    border: 1px solid #B3B3B3;
+    cursor: not-allowed;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.btn-active{
+    background-color: var(--btn-color-orange);
+    border: 1px solid var(--btn-color-orange);
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.inputs-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*TABELA*/
+
+.table-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 295px;
+    
+}
+
+.img-notFound{
+    align-self: center;
+}
+#table-search-product .img-notFound .animation{
+    height: 240px !important;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    
+}
+
+.btn-cancel{
+    background-color: #ffffff;
+    border: none;
+    color: #4A08FF;
+}
+
+.btn-cancel:hover{
+    background-color: #4a08ff44;
+    transition: background-color 0.7s;
+}
+.btn-save-inactive{
+    background-color: #B3B3B3;
+    border: 1px solid #B3B3B3;
+    cursor: not-allowed;
+}
+
+.btn-save-active{
+    background-color: #4A08FF;
+    border: 1px solid #4A08FF;
+}
+/*Fim tabela*/
+
+.box-button-save-product{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#buttoes-status{
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+}
+.received{
+    background-color: #B3B3B3;
+    border: 1px solid #333333;
+    color: #333333;
+}
+
+.received:hover{
+    background-color: #a7a5a5;
+    transition: background-color 0.6s;
+}
+
+.ready{
+    background-color: #FFE485;
+    color: #856700;
+    border: 1px solid #856700;
+}
+
+.ready:hover{
+    background-color: #f5d76b;
+    transition: background-color 0.6s;
+}
+
+.delivered{
+    background-color:#85FFA0 ;
+    color: #00851D;
+    border: 1px solid #00851D;
+}
+
+.delivered:hover{
+    background-color: #54f376;
+    transition: background-color 0.6s;
+}
+
+#result{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #666666;
+}
+
+
